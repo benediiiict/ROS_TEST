@@ -1,0 +1,11 @@
+<launch>
+
+    <node pkg="ex1" name="plus"  type="plus"
+    output="screen"
+    />
+
+    <node pkg="ex1" name="answer"  type="answer" 
+    output="screen"
+    />
+    
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/ben/test/devel
+
+Name: ex2
+Description: Description of ex2
+Version: 0.0.0
+Cflags: -I/home/ben/test/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+ex1:ex2
+-DCATKIN_DEVEL_PREFIX=/home/ben/test/devel -DCMAKE_INSTALL_PREFIX=/home/ben/test/install -G Unix Makefiles
