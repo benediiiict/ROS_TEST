@@ -1,0 +1,10 @@
+<launch>
+    <arg name="str" default="ssss aaa"/>
+    <include file="$(find ex1)/launch/ben1.launch"></include>
+
+    <node pkg="ex2" name="add_string_server"  type="add_string_server" output="screen"/>
+
+    <node pkg="ex2" name="add_string_client"  type="add_string_client" output="screen" >
+        <param name="str" value="$(arg str)"/>
+    </node>
+</launch>
